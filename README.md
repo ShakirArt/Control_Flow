@@ -34,4 +34,14 @@ Based on the results of a specific expression we may want different outputs. Swi
 
 
 ## Looping Statements
+
+1. for loop : -
+This allows us to repeat the execution of a block of code for a fix number. It follows initialization, the condition, and the update.
+
+2. while loop : -
+This repeats a block of code until it reaches certain condition.
+
+3. do-while loop : -
+This runs a block of code then for specific condition it repeats. It will run the code at eat once. Based on the conditon it repeats.
+
 ## Control Transfer Statements
