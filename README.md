@@ -10,3 +10,28 @@ In C Programing :
  * Conditional Statements
  * Looping Statements
  * Control Transfer Statements
+
+## Conditional Statements
+
+
+1. if statement : -
+ if statement lets us test for a condition (such as comparing two variables)
+and execute different parts of code, depending on the conditions with
+relational and logical operators are also included.
+
+
+2. if-else statement : - 
+Sometimes we need one bloock of code to be true and other block to be false. if works on the condition.
+
+3. else-if statement : - 
+To execute 2 or more condetions one after other if their true or not, else-if statement is used.
+
+4. Nested-if statement : -
+Executing an if statement inside another if staement. This refers to a condition being checked after the outer if is true.
+ 
+5. Switch statement : -
+Based on the results of a specific expression we may want different outputs. Switch allows us to do that. for different cases we can get recuired results.
+
+
+## Looping Statements
+## Control Transfer Statements
