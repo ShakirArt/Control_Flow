@@ -83,5 +83,16 @@ Ends the code with a value. The value is given to the caller.
 *  C Program to Find All Factors of a Natural Number
 *  C program to  Sum of Fibonacci Numbers at Even Indexes up to N Terms
 
+## Positive, Negative, or Zero
+
+We take a Number from the user. Now, we need to write a C program that can tell us whether the Number is Positive, Negative, or Zero.
+
+To check whether the Number is Positive, Negative, or Zero we can put 3 conditions. Conditions have to be the compersion of the number and 0.
+1. Number == 0
+2. Number > 0
+3. Number < 0
+
+We'll use else-if statement. We can put 2 conditions, else statements will automatically get the last condition. Accourding to conditions print whether the Number is Positive, Negative, or Zero.
+
 
 
