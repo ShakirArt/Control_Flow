@@ -94,5 +94,24 @@ To check whether the Number is Positive, Negative, or Zero we can put 3 conditio
 
 We'll use else-if statement. We can put 2 conditions, else statements will automatically get the last condition. Accourding to conditions print whether the Number is Positive, Negative, or Zero.
 
+## Even or Odd
 
+If a number can be devided by 2, they are even numbers. So that refers to a number that can't be devided by 2, are odd numbers.
+
+This can solved in many ways.
+1. Modulus operator % : - If Number % 2 == 0, then it's even. Otherwise the number is odd.
+
+2. Bitwise operator & : -
+If (Number & 1) == 0, then it's even. Otherwise the number is odd.
+
+3. Bitwise operator XOR ^ : -
+If (Number ^ 1) == (Number + 1), then it's even. Otherwise the number is odd. Here (Number + 1) is decimal addition.
+
+4. Left-right shift : -
+If ((Number >> 1) << 1) == Number, then it's even. Otherwise the number is odd.  
+
+5. Division operator : -
+If ((Number / 2) * 2) == Number, then it's even. Otherwise the number is odd.
+
+## Vowel or Consonant
 
