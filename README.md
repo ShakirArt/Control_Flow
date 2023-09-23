@@ -121,3 +121,13 @@ We'll use switch statement. Take a character from the user. Switch condition is 
 
 Take 3 user input. Declaire a veriable (large) then asign the value of an input to it.  Use nested if and compare between the veriable (large) and the other numbers. If the other numbers are larger than the veriable large, then asign that value to large. So, at the end of the statement the veriable large is the largest number.
 
+## Sum of Natural Numbers 
+
+Take a number as user input. Take a varieble sum. Use formula the print the sum.\
+Follow the formula: 
+Sum = ((Number + 1) * Number) / 2
+
+
+## URL
+
+https://www.geeksforgeeks.org/c-programming-examples/
