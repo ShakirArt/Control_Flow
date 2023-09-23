@@ -45,3 +45,16 @@ This repeats a block of code until it reaches certain condition.
 This runs a block of code then for specific condition it repeats. It will run the code at eat once. Based on the conditon it repeats.
 
 ## Control Transfer Statements
+
+1. break statement : - 
+Stops executing current block of code (conditional statements or loop statements). This is mostly used when the conditional or loop statements doesn't need to be executed after geting required results. 
+
+2. continue statement : -
+The continue statement skips the current statement in the loop and continues with the next block. Statements after the continue statement in the loop are not executed.
+
+3. goto statement : -
+It allows us to transfar and execute a labeled code. It's like jumpng from this block of code to another.
+
+4. return statement : -
+Ends the code with a value. The value is given to the caller.
+
