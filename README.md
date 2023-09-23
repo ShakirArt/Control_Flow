@@ -115,3 +115,6 @@ If ((Number / 2) * 2) == Number, then it's even. Otherwise the number is odd.
 
 ## Vowel or Consonant
 
+We'll use switch statement. Take a character from the user. Switch condition is the character. Our cases will be A, E, I, O, U, a, e, i, o, u. These cases will print the character is vowel. In default, print the character is consonant.
+
+
