@@ -117,4 +117,7 @@ If ((Number / 2) * 2) == Number, then it's even. Otherwise the number is odd.
 
 We'll use switch statement. Take a character from the user. Switch condition is the character. Our cases will be A, E, I, O, U, a, e, i, o, u. These cases will print the character is vowel. In default, print the character is consonant.
 
+## Largest Number
+
+Take 3 user input. Declaire a veriable (large) then asign the value of an input to it.  Use nested if and compare between the veriable (large) and the other numbers. If the other numbers are larger than the veriable large, then asign that value to large. So, at the end of the statement the veriable large is the largest number.
 
