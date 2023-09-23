@@ -99,18 +99,18 @@ We'll use else-if statement. We can put 2 conditions, else statements will autom
 If a number can be devided by 2, they are even numbers. So that refers to a number that can't be devided by 2, are odd numbers.
 
 This can solved in many ways.
-1. Modulus operator % : - If Number % 2 == 0, then it's even. Otherwise the number is odd.
+1. **Modulus operator** % : - If Number % 2 == 0, then it's even. Otherwise the number is odd.
 
-2. Bitwise operator & : -
+2. **Bitwise operator** & : -
 If (Number & 1) == 0, then it's even. Otherwise the number is odd.
 
-3. Bitwise operator XOR ^ : -
+3. **Bitwise operator XOR** ^ : -
 If (Number ^ 1) == (Number + 1), then it's even. Otherwise the number is odd. Here (Number + 1) is decimal addition.
 
-4. Left-right shift : -
+4. **Left-right shift** : -
 If ((Number >> 1) << 1) == Number, then it's even. Otherwise the number is odd.  
 
-5. Division operator : -
+5. **Division operator** : -
 If ((Number / 2) * 2) == Number, then it's even. Otherwise the number is odd.
 
 ## Vowel or Consonant
@@ -119,11 +119,11 @@ We'll use switch statement. Take a character from the user. Switch condition is 
 
 ## Largest Number
 
-Take 3 user input. Declaire a veriable (large) then asign the value of an input to it.  Use nested if and compare between the veriable (large) and the other numbers. If the other numbers are larger than the veriable large, then asign that value to large. So, at the end of the statement the veriable large is the largest number.
+Take 3 user input. Declaire a variable (large) then asign the value of an input to it. Use nested if and compare between the variable (large) and the other numbers. If the other numbers are larger than the variable large, then asign that value to large. So, at the end of the statement the variable large is the largest number.
 
 ## Sum of Natural Numbers 
 
-Take a number as user input. Take a varieble sum. Use formula the print the sum.\
+Take a number as user input. Take a variable sum. Use formula the print the sum.\
 Follow the formula: 
 Sum = ((Number + 1) * Number) / 2
 
@@ -139,6 +139,17 @@ Our condition would be : \
 (Year % 4 == 0 && Year % 100 != 0) || Year % 400 == 0
 
 
+## Factorial
+
+When a number is multiplied with every natural previous numbers then it is the factorial of that number. Take a number as user input (Number). We'll be using for loop where user input is the number of repetation. Declair a variable (loop) and asign it's value to the number of repetation. In the loop asign the value of ```i * Number``` to Number. Then print the number to show the result.
+
+Here if user input (Number) is 5 then, \
+i = 1 ------ Number = 1 * 5 ----- Output = 5\
+i = 2 ------ Number = 2 * 5 ----- Output = 10\
+i = 3 ------ Number = 3 * 10 ----- Output = 30\
+i = 4 ------ Number = 4 * 30 ----- Output = 120\
+ ----------------- End of the loop ------------------\
+ The factorialof 5 is 120.
 
 ## URL
 
