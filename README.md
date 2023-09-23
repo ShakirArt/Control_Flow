@@ -131,6 +131,15 @@ Sum = ((Number + 1) * Number) / 2
 
 The ASCII value from A to Z is 65 to 90. We can print them using a for loop that starts at 65 and ends when reaches 90. 
 
+
+## Leap Year
+
+Let's take a year as user input. Use if statement to check whether the year is a leap year or not.\
+Our condition would be : \
+(Year % 4 == 0 && Year % 100 != 0) || Year % 400 == 0
+
+
+
 ## URL
 
 https://www.geeksforgeeks.org/c-programming-examples/
