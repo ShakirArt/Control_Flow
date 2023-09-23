@@ -127,6 +127,9 @@ Take a number as user input. Take a varieble sum. Use formula the print the sum.
 Follow the formula: 
 Sum = ((Number + 1) * Number) / 2
 
+## Print Alphabets A to Z
+
+The ASCII value from A to Z is 65 to 90. We can print them using a for loop that starts at 65 and ends when reaches 90. 
 
 ## URL
 
