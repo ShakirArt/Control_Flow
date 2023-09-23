@@ -119,7 +119,7 @@ We'll use switch statement. Take a character from the user. Switch condition is 
 
 ## Largest Number
 
-Take 3 user input. Declaire a variable (large) then asign the value of an input to it. Use nested if and compare between the variable (large) and the other numbers. If the other numbers are larger than the variable large, then asign that value to large. So, at the end of the statement the variable large is the largest number.
+Take 3 user input. Declare a variable (large) then asign the value of an input to it. Use nested if and compare between the variable (large) and the other numbers. If the other numbers are larger than the variable large, then asign that value to large. So, at the end of the statement the variable large is the largest number.
 
 ## Sum of Natural Numbers 
 
@@ -141,7 +141,7 @@ Our condition would be : \
 
 ## Factorial
 
-When a number is multiplied with every natural previous numbers then it is the factorial of that number. Take a number as user input (Number). We'll be using for loop where user input is the number of repetation. Declair a variable (loop) and asign it's value to the number of repetation. In the loop asign the value of ```i * Number``` to Number. Then print the number to show the result.
+When a number is multiplied with every natural previous numbers then it is the factorial of that number. Take a number as user input (Number). We'll be using for loop where user input is the number of repetation. Declare a variable (loop) and asign it's value to the number of repetation. In the loop asign the value of ```i * Number``` to Number. Then print the number to show the result.
 
 Here if user input (Number) is 5 then, \
 i = 1 ------ Number = 1 * 5 ----- Output = 5\
@@ -150,6 +150,18 @@ i = 3 ------ Number = 3 * 10 ----- Output = 30\
 i = 4 ------ Number = 4 * 30 ----- Output = 120\
  ----------------- End of the loop ------------------\
  The factorialof 5 is 120.
+
+
+## Simple Calculator
+
+We'll use do-while loop for user to continue using the calculator. Right after declaration the whole code will be in do-while loop.
+
+We'll take 2 user input in float data type. Take a variable in char data type, this refers to all the operators that will be used. User will input operators and use a if statement to end the code when the user wants to stop. We can use switch statement for this. switch condition will be operators. Our cases will follow formula accourding to operators (+, -, *, /). While statement is 1.
+
+
+## Multiplication Table
+
+Take a user input. Now in a for loop we'll multiply And asign it as the result. ```i * Number``` Then print that in Multiplication format. 
 
 ## URL
 
