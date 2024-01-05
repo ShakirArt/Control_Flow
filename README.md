@@ -165,8 +165,19 @@ Take a user input. Now in a for loop we'll multiply And asign it as the result. 
 
 ## Fibonacci Series
 
-We need to undrstand Fibonacci Series. Fibonacci Series is expressed by\
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on.
+We need to undrstand Fibonacci Series. Fibonacci Series is expressed by 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on. The pattern is like\
+0 + 1 = 1\
+1 + 1 = 2\
+1 + 2 = 3\
+2 + 3 = 5\
+3 + 5 = 8...and so on
+
+The equation for Fibonacci Series is f(n) = f(n-1) + f(n-2); where f(0) = 0 and f(1) = 1\
+We will use recursion. Recursion is a concept where we use previous result to get the next result. for example to get f(n) we will need f(n-1) and f(n-2). If we need the result of f(2) then we need f(2-1) or f(1) whice is a previous result for f(2). Like this we take previous result to get the final result. Well, in c Recursion is calling a function within itself. 
+
+We will create a function called Fibo. User will fix how long the Fibonacci Series will be. In main function for loop will print the Fibonacci Series.  In for loop i will start from 0 and increase it's value. To print the Series ```printf("%d  ", Fibo(i));```
+
+In the funtion, if-else if-else statment is used. If i=0, will return 0. If i=1, will return 1. else statment is to call the function within itself. It will return ```Fibo(n-1) + Fibo(n-2)```
 
 ## URL
 
