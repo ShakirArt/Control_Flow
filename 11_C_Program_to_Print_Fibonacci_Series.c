@@ -10,22 +10,14 @@ int main(){
     }
 }
 
-int fibo (int a){
-    int r;
-    r = Fibo(a);
-    return r;
-}
-
-int Fibo (int f) {
-    int r;
-    if (f==0){
+int Fibo (int n) {
+    if (n==0){
         return 0;
     }
-    else if (f==1) {
+    else if (n==1) {
         return 1;
     }
     else {
-        r= fibo(f-1)+ fibo(f-2);
-        return r;
+        return Fibo(n-1)+ Fibo(n-2);
     }
 }
