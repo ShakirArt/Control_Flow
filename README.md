@@ -163,6 +163,11 @@ We'll take 2 user input in float data type. Take a variable in char data type, t
 
 Take a user input. Now in a for loop we'll multiply And asign it as the result. ```i * Number``` Then print that in Multiplication format. 
 
+## Fibonacci Series
+
+We need to undrstand Fibonacci Series. Fibonacci Series is expressed by\
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on.
+
 ## URL
 
 https://www.geeksforgeeks.org/c-programming-examples/
