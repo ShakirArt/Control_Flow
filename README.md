@@ -2,7 +2,7 @@
 ## C Program – Control Flow
 
 This repository contains GeeksforGeeks C Programming Examples (Control Flow). This is next part of my repository C_Program_Basic.
-If you just started learning C Programming, then Checking out my repository C_Program_Basic before this, would be best.
+If you just started learning C Programming, then Checking out my repository C_Program_Basic before this, would be best. I solved all these code on my own. So my code can seem a little complicated than the other solutions that you can find online.
 
 Control flow refer to executing the order of statements. They mainly are used for making decisions, repeat and jump  to specific sections of code. 
 
