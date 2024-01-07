@@ -179,6 +179,16 @@ We will create a function called Fibo. User will fix how long the Fibonacci Seri
 
 In the funtion, if-else if-else statment is used. If i=0, will return 0. If i=1, will return 1. else statment is to call the function within itself. It will return ```Fibo(n-1) + Fibo(n-2)```
 
+
+## LCM of Two Numbers
+
+We’ll take two numbers from the user and calculate their least common multiple (LCM) as the output. We’ll compute the LCM by invoking our custom-made function called ‘lcm’. The function will accept two integer numbers. 
+
+Now we need to understand Euclidean algorithm to solve this. In Euclidean algorithm we divide the larger number by the smaller one. If the remainder isn’t zero, we divide the first divisor by the remainder. Then repeat the process until the reminder is zero. The last divisor will be the LCM.
+
+Now we’ll take the largest number as an integer ```max```. The smaller number will be an integer ```divi```. If any number is equal to 0, then the other number would be the LCM. Next, we use a while loop that will end if ```max % divi``` is equal to 0. In the loop, the value of ```max % divi``` is assigned to an integer ```rem```. The value of ```divi``` is assigned to ```max```, and the value of ```rem``` is assigned to ```divi```. When the while loop ends, the value of ```divi``` will be returned.
+
+
 ## URL
 
 https://www.geeksforgeeks.org/c-programming-examples/
