@@ -182,7 +182,7 @@ In the funtion, if-else if-else statment is used. If i=0, will return 0. If i=1,
 
 ## LCM of Two Numbers
 
-We’ll take two numbers from the user and calculate their least common multiple (LCM) as the output. We’ll compute the LCM by invoking our custom-made function called ‘lcm’. The function will accept two integer numbers. 
+We’ll take two numbers from the user and calculate their least common multiple (LCM) as the output. We’ll compute the LCM by invoking our custom-made function called ```lcm```. The function will accept two integer numbers. 
 
 Now we need to understand Euclidean algorithm to solve this. In Euclidean algorithm we divide the larger number by the smaller one. If the remainder isn’t zero, we divide the first divisor by the remainder. Then repeat the process until the reminder is zero. The last divisor will be the LCM.
 
