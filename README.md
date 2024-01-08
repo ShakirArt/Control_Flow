@@ -14,23 +14,24 @@ In C Programming, we have the following types of control flow:
 ## Conditional Statements
 
 
-1. if statement : -
- if statement lets us test for a condition (such as comparing two variables)
-and execute different parts of code, depending on the conditions with
-relational and logical operators are also included.
+1. if statement -
 
 
-2. if-else statement : - 
-Sometimes we need one bloock of code to be true and other block to be false. if works on the condition.
+The ```if``` statement lets us test for a condition (such as comparing two variables) and execute different parts of code, depending on the conditions with relational and logical operators.
 
-3. else-if statement : - 
-To execute 2 or more condetions one after other if their true or not, else-if statement is used.
 
-4. Nested-if statement : -
-Executing an if statement inside another if staement. This refers to a condition being checked after the outer if is true.
+2. if-else statement -
+
+The ```if-else``` statement is used when we need one block of code to be executed if the condition is true and another block of code to be executed if the condition is false.
+
+3. else-if statement - 
+The ```else-if``` statement is used to execute two or more conditions one after the other if they are true or not.
+
+4. Nested-if statement -
+The ```nested-if``` statement refers to executing an ```if``` statement inside another ```if``` statement. This refers to a condition being checked after the outer ```if``` is true.
  
-5. Switch statement : -
-Based on the results of a specific expression we may want different outputs. Switch allows us to do that. for different cases we can get recuired results.
+5. Switch statement -
+The ```switch statement``` is used when we want different outputs based on the results of a specific expression. It allows us to get the required results for different cases.
 
 
 ## Looping Statements
