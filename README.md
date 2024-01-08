@@ -34,13 +34,15 @@ The ```switch statement``` is used when we want different outputs based on the r
 ## Looping Statements
 
 1. for loop : -
-This allows us to repeat the execution of a block of code for a fix number. It follows initialization, the condition, and the update.
+The ```for``` loop allows us to repeat the execution of a block of code for a fixed number of times. It follows initialization, the condition, and the update.
 
 2. while loop : -
-This repeats a block of code until it reaches certain condition.
+The ```while``` loop repeats a block of code until it reaches a certain condition.
 
 3. do-while loop : -
-This runs a block of code then for specific condition it repeats. It will run the code at eat once. Based on the conditon it repeats.
+The ```do-while``` loop runs a block of code at least once, then repeats it based on a specific condition.
+
+Both ```while``` loop and ```for``` loop are Entry Controlled Loop as they check the loop condition before entering the loop. The ```do-while``` loop is Exit Controlled Loop as it checks the loop condition after executing the loop.
 
 ## Control Transfer Statements
 
