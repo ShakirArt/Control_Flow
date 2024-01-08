@@ -15,13 +15,10 @@ In C Programming, we have the following types of control flow:
 
 
 1. if statement -
-
-
 The ```if``` statement lets us test for a condition (such as comparing two variables) and execute different parts of code, depending on the conditions with relational and logical operators.
 
 
 2. if-else statement -
-
 The ```if-else``` statement is used when we need one block of code to be executed if the condition is true and another block of code to be executed if the condition is false.
 
 3. else-if statement - 
