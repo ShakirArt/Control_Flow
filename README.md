@@ -191,8 +191,7 @@ Now we’ll take the largest number as an integer ```max```. The smaller number 
 
 
 ## Check Armstrong Number
-An Armstrong number is a number that is equal to the sum of its digits raised to the power of the number of digits in the number itself. For instance, the number 153 is an Armstrong number because it has 3 digits and satisfies the following equation:\
- 1^3 + 5^3 + 3^3 = 153
+An Armstrong number is a number that is equal to the sum of its digits raised to the power of the number of digits in the number itself. For instance, the number 153 is an Armstrong number because it has 3 digits and satisfies the following equation: 1^3 + 5^3 + 3^3 = 153
  
 In general, if we have an n-digit number A, then the sum of each digit raised to the power of n should be equal to A for A to be an Armstrong number.
 
