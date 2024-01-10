@@ -193,6 +193,7 @@ Now we’ll take the largest number as an integer ```max```. The smaller number 
 ## Check Armstrong Number
 An Armstrong number is a number that is equal to the sum of its digits raised to the power of the number of digits in the number itself. For instance, the number 153 is an Armstrong number because it has 3 digits and satisfies the following equation:\
  1^3 + 5^3 + 3^3 = 153
+ 
 In general, if we have an n-digit number A, then the sum of each digit raised to the power of n should be equal to A for A to be an Armstrong number.
 
 Take an integer ```a``` as input. We need to count total digits of ```a```. For total number of  digits an integer ```n```, its value is 0. Assign the value of ```a``` to other two integers ```num1``` & ```num2``` . Divide ```num1``` by 10 in a while loop. The quotient will be assigned to ```num1```. It will stop when the quotient is zero.  Take an integer ```n``` and assign 0 as its value. In this while loop ```n++``` will count total digits. In another while loop, ```num2%10``` will be assigned to an integer ```rem```.This loop will end when ```num2``` is zore. This will give us each digits individually. Then ```pow(rem,n)``` where rem indicates individual digit and n is the total digits. For the summation an integer ```arms```, its value is 0. ```pow(rem,n)+arms``` will be assigned to ```arms```.  ```num2/10``` is assigned to num2, so that we get next digits to repeat the process. Now if ```arms==a``` then the output is yes otherwise no.
